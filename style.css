@@ -1,16 +1,65 @@
+/* Color Pallette
+#fae5df #f5cac2 #ed7966 #303179 #141850
+*/
+
 body{
     font-family: montserrat;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 div#main-header {
     border-radius: 25px;
     text-align: center;
-    background-color: rgba(171, 183, 183, .25);
-    
+    background-color: rgba(20, 56, 173, 0.25);
+    margin-left: 15%;
+    margin-right: 15%;  
 }
+
 h1#firstH1:hover {
     background-color: rgba(41, 241, 195, .25);
     border-radius: 25px;
+}
+
+div#aboutMe h2{
+    border-radius: 25px;
+    background-color: rgba(20, 56, 173, 0.25);
+    margin-right: 66%;
+    text-align: center;
+}
+
+div#aboutMe h2 p{
+    border-radius: 25px;
+    background-color: rgba(20, 56, 173, 0.25);
+    margin-right: 66%;
+}
+
+div#aboutMeContent{
+    border-radius: 25px;
+    background-color: rgba(20, 56, 173, 0.25);
+    margin-right:66%;
+}
+
+div#aboutMeContent p:first-of-type{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p#aboutMeBlurb{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p#reasonsWhy{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul#reasons{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:10px;
 }
