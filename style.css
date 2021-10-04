@@ -25,26 +25,19 @@ h1#firstH1:hover {
 }
 
 div.column{
+    min-width: 500px;
     float: left;
-    width: 33%;
+    width: 32%;
     padding-left: 10px;
     padding-right: 10px;
 }
-div h2{
-    
-    border-radius: 25px;
-    background-color: #c8d8e4;
-    text-align: center;
-}
-p#name{
-    text-align: center;
-}
 
-p#css, #javascript, #html, #google{
-    margin-left: 25%;
-    margin-right: 25%;
+div h2{
     border-radius: 25px;
     background-color: #c8d8e4;
+    text-align: center;
+}
+p#name, #soLong{
     text-align: center;
 }
 
@@ -53,6 +46,14 @@ div.content{
     padding-bottom:5px;
     border-radius: 25px;
     background-color: #f2f2f2;   
+}
+
+p#css, #javascript, #html, #google{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 25px;
+    background-color: #c8d8e4;
+    text-align: center;
 }
 
 p#aboutMeBlurb{
@@ -73,3 +74,24 @@ ul#reasons, #googleList{
 #saveMe{
     background-color: turquoise;
 }
+
+div#pics img{ 
+    padding: 5px;
+    max-width: 240px;
+    max-height: 300px;
+}
+
+div#pics{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+div.pictures{
+    justify-content: center;
+    flex: 50%;
+    
+}
+
