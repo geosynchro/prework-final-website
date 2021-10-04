@@ -3,6 +3,7 @@
 */
 
 body{
+    background-color: rgb(22, 35, 46);
     font-family: montserrat;
     padding-top: 50px;
     padding-left: 5%;
@@ -10,41 +11,48 @@ body{
 }
 
 div#main-header {
+    color: seashell;
     border-radius: 25px;
     text-align: center;
-    background-color: rgba(20, 56, 173, 0.25);
+    background-color: #2b6777;
     margin-left: 15%;
     margin-right: 15%;  
 }
 
 h1#firstH1:hover {
-    background-color: rgba(41, 241, 195, .25);
+    background-color: red;
     border-radius: 25px;
 }
 
-div#aboutMe h2{
+div.column{
+    float: left;
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div h2{
+    
     border-radius: 25px;
-    background-color: rgba(20, 56, 173, 0.25);
-    margin-right: 66%;
+    background-color: #c8d8e4;
+    text-align: center;
+}
+p#name{
     text-align: center;
 }
 
-div#aboutMe h2 p{
+p#css, #javascript, #html, #google{
+    margin-left: 25%;
+    margin-right: 25%;
     border-radius: 25px;
-    background-color: rgba(20, 56, 173, 0.25);
-    margin-right: 66%;
-}
-
-div#aboutMeContent{
-    border-radius: 25px;
-    background-color: rgba(20, 56, 173, 0.25);
-    margin-right:66%;
-}
-
-div#aboutMeContent p:first-of-type{
+    background-color: #c8d8e4;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+
+div.content{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 25px;
+    background-color: #f2f2f2;   
 }
 
 p#aboutMeBlurb{
@@ -58,8 +66,10 @@ p#reasonsWhy{
     padding-right: 10px;
 }
 
-ul#reasons{
-    padding-left: 25px;
+ul#reasons, #googleList{
     padding-right: 25px;
-    padding-bottom:10px;
+}
+
+#saveMe{
+    background-color: turquoise;
 }
